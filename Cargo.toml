@@ -1,0 +1,13 @@
+[package]
+name = "discord_ratV2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+device_query = "3.0.1"
+dotenv = "0.15.0"
+image = "0.25.6"
+reqwest = {version = "0.12.15", features = ["blocking"]}
+serenity = {version = "0.12.4", features = ["gateway", "framework", "model"]}
+tokio = {version = "1.44.2", features = ["full"]}
+winapi = {version="0.3.9",features = ["winuser"]}

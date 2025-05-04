@@ -1,0 +1,27 @@
+# Pliki binarne i buildy
+/target/
+/discord_ratV2
+
+# Pliki tymczasowe
+**/*.rs.bk
+**/*~
+**/#*#
+**/.#*
+
+# Edytor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.env
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Tapeta i inne zasoby
+wallpaper.jpg
+
+# Cargo
+Cargo.lock
+
